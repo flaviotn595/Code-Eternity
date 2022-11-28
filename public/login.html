@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> LOGIN </title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/vendor.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<script src="/js/modernizr.js"></script>
+<script src="/js/pace.min.js"></script>
+<link rel="shortcut icon" href="https://telegra.ph/file/28db4740fe2ecb7db6316.jpg" type="image/x-icon">
+<link rel="icon" href="https://telegra.ph/file/28db4740fe2ecb7db6316.jpg" type="image/x-icon">
+</head>
+<body id="top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+<title> LOGIN </title>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+<link href="https://designreset.com/cork/ltr/demo3/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://designreset.com/cork/ltr/demo3/assets/css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="https://designreset.com/cork/ltr/demo3/assets/css/authentication/form-2.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="https://designreset.com/cork/ltr/demo3/assets/css/forms/theme-checkbox-radio.css">
+<link rel="stylesheet" type="text/css" href="https://designreset.com/cork/ltr/demo3/assets/css/forms/switches.css">
+</head>
+<body class="form">
+<div class="form-container outer">
+<div class="form-form">
+<div class="form-form-wrap">
+<div class="form-container">
+<div class="form-content">
+<h1 class="">Entrar Na Sua <br> Conta</h1>
+
+
+<form class="text-left">
+<div class="form">
+<div id="username-field" class="field-wrapper input">
+<label for="username">Insira o Seu Usuário</label>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+<input id="login" name="username" type="text" class="form-control" placeholder="Usuário" required>
+</div>
+
+
+<div id="password-field" class="field-wrapper input mb-2">
+<div class="d-flex justify-content-between">
+<label for="password">Insira a Sua Senha</label>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+<input id="password" name="password" type="password" class="form-control" placeholder="Senha" required>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-password" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+</div>
+
+
+<div class="d-sm-flex justify-content-between">
+<div class="field-wrapper">
+<button type="submit" class="btn btn-primary" onclick="logar(); return false">Entrar</button>
+</div>
+</div>
+</div>
+<p class="signup-link">Não Tem Uma Conta? <a href="https://chat.whatsapp.com/CfJjpkM2BCyEWq3lv91bq4">Pedir Uma ✓</a></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+function logar(){
+
+var login = document.getElementById('login').value;
+var password = document.getElementById('password').value;
+
+    if(login == "admin" && password == "0208"){
+                location.href = "home.html";
+    }
+
+    if(login == "lopes" && password == "lopes"){
+                location.href = "home.html";
+    }
+    
+    if(login == "kira" && password == "kira"){
+                location.href = "home.html";
+    }
+}
+</script>
+<script src="https://designreset.com/cork/ltr/demo3/assets/js/libs/jquery-3.1.1.min.js"></script>
+<script src="https://designreset.com/cork/ltr/demo3/bootstrap/js/popper.min.js"></script>
+<script src="https://designreset.com/cork/ltr/demo3/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="https://designreset.com/cork/ltr/demo3/assets/js/authentication/form-2.js"></script>
+</div>
+</body>
+</html>
